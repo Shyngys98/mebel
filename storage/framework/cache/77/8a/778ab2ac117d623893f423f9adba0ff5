@@ -1,0 +1,77 @@
+1474898093a:1:{s:8:"menu.htm";a:6:{s:8:"fileName";s:8:"menu.htm";s:7:"content";s:1330:"description = "Menu partial"
+==
+<div id="menuF" class="default">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-12">
+					<div class="navmenu" style="text-align: center;">
+						<ul id="menu">
+							<li class="active" ><a href="/">Главная</a></li>
+						
+							<li><!-- Single button -->
+<div class="btn-group">
+	<div >
+  <button type="button" class="btn btn-default  dropdown-toggle .dropdown-backdrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Столярные изделия <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="/kuhnya">Кухня</a></li>
+    <li><a href="/gost">Гостиная</a></li>
+    <li><a href="/spal">Спальня</a></li>
+   
+  </ul>
+</div></li>
+							<li><a href="{{'dostavka'|page}}">Доставка</a></li>
+							<li><a href="/contact">Контакты</a></li>
+							<li><a href="/zakaz">Мебель на заказ</a></li>
+							{% if user %}
+							<li> <a href="#" data-request="onLogout">Выход</a></li>
+							{% else %}
+							<li role="menuitem"> <a href="/login">Вход / Регистрация</a></li>
+							{% endif %}
+							<li> 8(727)2-46-58-77</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>";s:5:"mtime";i:1474787625;s:6:"markup";s:1298:"<div id="menuF" class="default">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-12">
+					<div class="navmenu" style="text-align: center;">
+						<ul id="menu">
+							<li class="active" ><a href="/">Главная</a></li>
+						
+							<li><!-- Single button -->
+<div class="btn-group">
+	<div >
+  <button type="button" class="btn btn-default  dropdown-toggle .dropdown-backdrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Столярные изделия <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="/kuhnya">Кухня</a></li>
+    <li><a href="/gost">Гостиная</a></li>
+    <li><a href="/spal">Спальня</a></li>
+   
+  </ul>
+</div></li>
+							<li><a href="{{'dostavka'|page}}">Доставка</a></li>
+							<li><a href="/contact">Контакты</a></li>
+							<li><a href="/zakaz">Мебель на заказ</a></li>
+							{% if user %}
+							<li> <a href="#" data-request="onLogout">Выход</a></li>
+							{% else %}
+							<li role="menuitem"> <a href="/login">Вход / Регистрация</a></li>
+							{% endif %}
+							<li> 8(727)2-46-58-77</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>";s:4:"code";N;s:11:"description";s:12:"Menu partial";}}
